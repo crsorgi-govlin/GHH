@@ -1,0 +1,122 @@
+body {
+	background: #212331;
+}
+
+.captchaCls {
+	margin: 0px 15px 0px 10px;
+}
+
+.login_top_blue_line {
+	background-color: #00ffea;
+}
+
+.login_field_text {
+	font-weight: bold;
+	color: #000000;
+}
+
+.login_input {
+	width: 170px;
+	height: 15px;
+}
+
+.login_wtext {
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+.login_watag {
+	color: #FFFFFF;
+}
+
+.LoginBtn {
+	width: 67px;
+	height: 26px;
+	background: url(../images/login-btn.jpg) no-repeat;
+	border: none;
+}
+
+.footer_text {
+	background: #131522;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+/* client side validation css */
+.login_errMsgContainer {
+	position: relative;
+	z-index: 8;
+	bottom: 0px;
+	left: 0;
+	height: 1px;
+	float: left;
+}
+
+.login_errMsgContainer .toolTip {
+	position: absolute;
+	z-index: 5;
+	bottom: -10px;
+	left: 25px;
+	color: #282828
+}
+
+.toolTip .txt2 {
+	background-color: #fffbcb;
+	border: 1px solid #f57d10;
+	padding: 2px 4px;
+	line-height: 15px;
+	font-size: 11px;
+	font-weight: normal;
+	color: #ff0000;
+	white-space: nowrap;
+	min-width: 165px;
+	*width: 165px;
+	width: auto;
+	margin: 0px 0px 0px 80px;
+	text-align: left;
+}
+
+.toolTip .arrow {
+	background: url(../images/tooltip-arrow.gif) no-repeat 10px bottom;
+	height: 6px;
+	margin-top: -1px;
+	width: 100px;
+	margin: 0 0 0 82px;
+}
+
+div.error {
+	position: relative;
+	z-index: 8;
+	bottom: 0px;
+	left: 0;
+	height: 1px;
+	width: 120px;
+}
+
+div.error .toolTip {
+	position: absolute;
+	z-index: 5;
+	bottom: 10px;
+	left: 25px;
+	color: #282828
+}
+
+div.error .toolTip .txt2 {
+	background-color: #fffbcb;
+	border: 1px solid #f57d10;
+	padding: 2px 4px;
+	line-height: 15px;
+	font-size: 11px;
+	color: #ff0000;
+	white-space: nowrap;
+	min-width: 165px;
+	*width: 165px;
+	width: auto;
+}
+
+div.error .arrow {
+	background: url(../images/tooltip-arrow.gif) no-repeat 10px bottom;
+	height: 5px;
+	margin-top: -1px;
+	width: 173px;
+}

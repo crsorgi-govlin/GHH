@@ -1,0 +1,90 @@
+.selectedanchor{ /*CSS class that gets added to the currently selected anchor link (assuming it's a text link)*/
+background: none;
+}
+
+/* ######### Default class for drop down menus ######### */
+
+.anylinkmenu{
+position: absolute;
+left: 0px;
+top: 0px;
+visibility: hidden;
+border-bottom-width: 0;
+font: normal 13px arial;
+line-height: 18px;
+z-index: 100; /* zIndex should be greater than that of shadow's below */
+background: lightyellow;
+width: 200px; /* default width for menu */
+margin-top:6px;
+
+}
+
+.anylinkmenu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+.anylinkmenu ul li a{
+width: 100%;
+color:#ffffff;
+display: block;
+text-indent: 3px;
+font-size:13px;
+font: normal 13px arial;
+line-height:35px;
+padding: 0px 0;
+text-decoration: none;
+font-weight: bold;
+text-indent: 5px;
+border-bottom:1px solid #cccccc;
+padding-left:15px;
+}
+.anylinkmenu a:hover{ /*hover background color*/
+background-color:#585E7C;
+text-decoration:none
+
+}
+
+/* ######### Alternate multi-column class for drop down menus ######### */
+
+
+.anylinkmenucols{
+position: absolute;
+width: 350px;
+left: 0;
+top: 0;
+visibility: hidden;
+border: 1px solid black;
+padding: 10px;
+font: normal 16px  'Open Sans';;
+z-index: 100; /*zIndex should be greater than that of shadow's below*/
+background: #e44741;
+}
+
+.anylinkmenucols li{
+padding-bottom: 3px;
+}
+
+.anylinkmenucols .column{
+float: left;
+padding: 0px 8px;
+margin-right: 5px;
+background: #E0E0E0;
+}
+
+.anylinkmenucols .column ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+/* ######### class for shadow DIV ######### */
+
+.anylinkshadow{ /*CSS for shadow. Keep this as is */
+position: absolute;
+left: 0;
+top: 0;
+z-index: 99; /*zIndex for shadow*/
+background: black;
+visibility: hidden;
+}

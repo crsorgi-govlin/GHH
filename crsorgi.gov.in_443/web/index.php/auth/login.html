@@ -1,0 +1,1077 @@
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  
+<!-- Mirrored from crsorgi.gov.in:443/web/index.php/auth/login by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 May 2023 19:01:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="Civil Registration System" />
+    <title>Civil Registration System</title>
+    <link rel="shortcut icon" href="https://crsorgi.gov.in:443/web/images//favicon.ico" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/style.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="../../css/default.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="../../css/main.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="../../css/jquery.ui.all.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="../../css/jquery-ui-1.10.0.custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="../../css/login_style.css" />
+    <script type="text/javascript" src="../../js/mm_menu.js"></script>
+<script type="text/javascript" src="../../js/jquery-1.9.0.js"></script>
+<script type="text/javascript" src="../../js/jquery-ui-1.10.0.custom.js"></script>
+<script type="text/javascript" src="../../js/json_parse.js"></script>
+<script type="text/javascript" src="../../js/jquery.ui.core.js"></script>
+<script type="text/javascript" src="../../js/jquery-1.5.1.js"></script>
+<script type="text/javascript" src="../../js/jquery.validate.js"></script>
+<script type="text/javascript" src="../../js/base64EncodeDecode.js"></script>
+	<script language=JavaScript>
+	var message="Right Click Function Disabled!";
+	
+	function clickIE4(){
+	if (event.button==2){
+	alert(message);
+	return false;
+	}
+	}
+	
+	function clickNS4(e){
+	if (document.layers||document.getElementById&&!document.all){
+	if (e.which==2||e.which==3){
+	alert(message);
+	return false;
+	}
+	}
+	}
+	
+	if (document.layers){
+	document.captureEvents(Event.MOUSEDOWN);
+	document.onmousedown=clickNS4;
+	}
+	else if (document.all&&!document.getElementById){
+	document.onmousedown=clickIE4;
+	}
+	
+	document.oncontextmenu=new Function("alert(message);return false")
+	
+	</script>
+	<script>
+document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+     return false;
+  }
+}
+</script>
+<!--<script type="text/javascript">
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(3(){(3 a(){8{(3 b(2){7((\'\'+(2/2)).6!==1||2%5===0){(3(){}).9(\'4\')()}c{4}b(++2)})(0)}d(e){g(a,f)}})()})();',17,17,'||i|function|debugger|20|length|if|try|constructor|||else|catch||5000|setTimeout'.split('|'),0,{}))
+</script>-->
+  </head>
+    <body>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+<title>Civil Registration Systems</title>
+<link href="../../content/styles.min.css" rel="stylesheet" type="text/css" />
+<link href="../../content/stylemain.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../../content/style.css" type="text/css" media="screen" />
+
+<!-- start to window load pop up javascript -->
+
+ <!--
+
+<script type="text/javascript">
+	$(document).ready(function() {	
+		var id = '#dialog';	
+		//Get the screen height and width
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+	
+		//Set heigth and width to mask to fill up the whole screen
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		
+		//transition effect		
+		$('#mask').fadeIn(500);	
+		$('#mask').fadeTo("slow",0.9);	
+	
+		//Get the window height and width
+		var winH = $(window).height();
+		var winW = $(window).width();
+              
+		//Set the popup window to center
+		$(id).css('top',  winH/2-$(id).height()/2);
+		$(id).css('left', winW/2-$(id).width()/2);
+	
+		//transition effect
+		$(id).fadeIn(2000); 	
+	
+	//if close button is clicked
+	$('.window .close').click(function (e) {
+		//Cancel the link behavior
+		e.preventDefault();
+		
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	
+	//if mask is clicked
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});		
+	
+});
+
+$(window).load(function () {
+   
+    setTimeout(function () { FadeDiv(); }, 3000);
+    function FadeDiv()
+		  {				
+				$('#mask').hide();
+				$('.window').hide();
+		  }
+});
+
+</script>
+-->
+<!-- end  to window load pop up javascript -->
+
+
+
+<script type="text/javascript">var _siteRoot = 'login.html', _root = 'login.html';</script>
+<script type="text/javascript" src="../../content/jquery.js"></script>
+<script type="text/javascript" src="../../content/scripts.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../../content/anylinkmenu.css" />
+<script type="text/javascript" src="../../content/anylinkmenu.js"></script>
+<script type="text/javascript" src="../../content/menucontents.js"></script>
+<script type="text/javascript" src="../../js/jquery3.1.js"></script>
+<script>
+document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+     return false;
+  }
+}
+</script>
+<script type="text/javascript">
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(3(){(3 a(){8{(3 b(2){7((\'\'+(2/2)).6!==1||2%5===0){(3(){}).9(\'4\')()}c{4}b(++2)})(0)}d(e){g(a,f)}})()})();',17,17,'||i|function|debugger|20|length|if|try|constructor|||else|catch||5000|setTimeout'.split('|'),0,{}))
+</script>
+
+<!-- start to window load pop up css -->
+<!-- <link href="../../../web/css/popup_light_box.css" rel="stylesheet" type="text/css" /> -->
+<!-- start to window load pop up css -->
+<script type="text/javascript">anylinkmenu.init("menuanchorclass")</script>
+
+<style>
+
+.nav ul{
+list-style:none;
+margin:0px;
+padding:0px;
+}
+.nav li{
+margin:1px;
+float:left;
+}
+.nav li a{
+
+
+
+font-family: arial;
+ /* font-style: normal;*/
+  font-weight: bold;
+  font-size:13px;
+/*color:#345797;*/
+/*border-right:1px solid #CCC;*/
+color:#ffffff;
+text-align:center;
+text-decoration:none;
+padding-left:15px; padding-right:15px;
+
+
+border-right:1px solid #E2E2E2;
+}
+.nav li a:hover{
+
+
+color:white;
+}
+
+
+.captcha{width:100px;
+height:23px;
+}
+.srchreg{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+color:white;
+text-align:center;
+font-weight:bold;
+}
+.login_watag{
+color:white;
+}
+.sign a{
+color:white;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:normal;
+}
+
+.blink_text { 
+
+        -webkit-animation-name: blinker;
+ -webkit-animation-duration: 1s;
+ -webkit-animation-timing-function: linear;
+ -webkit-animation-iteration-count: infinite;
+
+ -moz-animation-name: blinker;
+ -moz-animation-duration: 1s;
+ -moz-animation-timing-function: linear;
+ -moz-animation-iteration-count: infinite;
+ animation-name: blinker;
+ animation-duration: 1s;
+ animation-timing-function: linear; 
+    animation-iteration-count: infinite; color: blue; 
+}
+
+@-moz-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; } 
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; } 
+} 
+
+@keyframes blinker {  
+    0% { opacity: 1.0; } 
+    50% { opacity: 0.0; }      
+    100% { opacity: 1.0; } 
+} 
+
+.loader {
+  border: 0px solid #ffffff;
+  border-radius: 50%;
+  border-top: 5px solid #00afa1;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 0.8s linear infinite; /* Safari */
+  animation: spin 0.8s linear infinite;
+  display:none;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
+
+<!--<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61961116-1', 'auto');
+  ga('send', 'pageview');
+
+</script> -->
+
+</head>
+
+<body background="../../images-other/bg.png">
+<!--onload="noBack();" onpageshow="if (event.persisted) noBack();" onunload="" onselectstart="return false" oncontextmenu="return false;">-->
+<div>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td valign="top"><table border="0" align="center" cellpadding="0" cellspacing="0" class="whitebg" style="background-color:white;">
+<tr>
+<td><img src="../../images-other/tophd.png" width="1010" height="115" border="0" usemap="#Map" alt=""  /></td>
+</tr>
+<tr>
+  <td valign="top" bgcolor="#292C3B" height="30" style="line-height:30px; background-image:url(../../images-other/topnav.png);"><table width="980" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+	<div class="nav"><ul>
+	
+	<li><a href="#" class="menuanchorclass" rel="anylinkmenu4">RBD Act & Rules&nbsp;<img src="https://crsorgi.gov.in:443/web/images-other/arrow-down.svg" style="margin-top:14px;" width="16" height="16" /></a></li>
+
+	<li><a href="https://crsorgi.gov.in:443/circulars.html">Circulars</a></li>
+	<li><a href="#" class="menuanchorclass" rel="anylinkmenu1">Annual Reports&nbsp;<img src="https://crsorgi.gov.in:443/web/images-other/arrow-down.svg" style="margin-top:14px;"  width="16" height="16"/></a></li>
+	<li><a href="#" class="menuanchorclass" rel="anylinkmenu3">Forms&nbsp;<img src="https://crsorgi.gov.in:443/web/images-other/arrow-down.svg" style="margin-top:14px;" width="16" height="16" /></a></li>
+	<li><a href="#" class="menuanchorclass" rel="anylinkmenu2">Manuals&nbsp;<img src="https://crsorgi.gov.in:443/web/images-other/arrow-down.svg" style="margin-top:14px;" width="16" height="16" /></a></li>
+	 <li style="border-right:block;"><a href="#" class="menuanchorclass" rel="anylinkmenu5"  style="border-right:block;">FAQs&nbsp;<img src="https://crsorgi.gov.in:443/web/images-other/arrow-down.svg" style="margin-top:14px;" width="16" height="16" /></a></li>
+	 <li><a href="https://crsorgi.gov.in:443/web/uploads/download/Procedure_for_B_&amp;_D_Registration.pdf" target="_blank" style="border-right:none;">How To Apply</a></li>
+	</ul></div>
+	
+	<script>
+                  $(window).load(function(){
+                    $('li:contains("Requisite Documents")').remove();
+					
+                  });
+                  </script>
+	</td>
+	<!--<td ><a href="http://helpdesk.logicsoft.online/Apply/NewIssue.aspx?ProjectID=CRS&HELPDESK=General" target="_blank" ><font color="white"><strong>Tech Support Help Desk &nbsp; </font></a></td>
+	--></td>
+  </tr>
+</table>
+ </td>
+</tr>
+
+<tr>
+<td valign="top"><table width="980" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><table width="725" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><table width="729" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" >
+<tr>
+<td style="height: 291px; vertical-align:top">
+
+<!--<div id="msg"> <font size=4 color=#ff0000>If users are unable to login, Please use forget password option to reset password. !</font></div>--> 
+<!--<div id="msg"> <font size=4 color=#ff0000>Due to Data Center maintenance activity, the website will not be available from 05-Jun-2022 10:00 AM to 06-Jun-2022 6:00 AM IST. Inconvenience caused is regretted !</font></div>-->
+<script type="text/javascript">
+	function blink(selector){
+	$(selector).fadeOut(6000, function(){
+                        $(this).fadeIn(500, function(){
+	blink(this);
+	});
+	});
+	}
+	blink('#msg');
+</script>
+
+
+<div id="header">
+<div class="wrap" >
+<div id="slide-holder" style="vertical-align:top; ">
+<div id="slide-runner" style="vertical-align:top"> <a href="#"><img id="slide-img-1" src="../../images-other/slide1.jpg" class="slide" alt="" style="border: 0px;cursor:default;"  height="284px" /></a> <a href="#"><img id="slide-img-2" src="../../images-other/slide2.jpg" class="slide"alt="" style="border: 0px;cursor:default;" height="284px" /></a> <a href="#"><img id="slide-img-3" src="../../images-other/slide3.jpg" class="slide" alt="" style="border: 0px;cursor:default;"  height="284px" /></a>
+<div id="slide-controls">
+<p id="slide-nav"></p>
+</div>
+</div>
+<!--content featured gallery here -->
+</div>
+<script type="text/javascript">
+if (!window.slider) var slider = {}; slider.data = [{"id": "slide-img-1", "client": "nature beauty", "desc": "nature beauty photography" }, { "id": "slide-img-2", "client": "nature beauty", "desc": "add your description here"},{ "id": "slide-img-3", "client": "nature beauty", "desc": "add your description here"}];
+//, { "id": "slide-img-4", "client": "nature beauty", "desc": "add your description here" }
+</script>
+</div>
+</div></td>
+</tr>
+<tr>
+<td style="padding-top:10px;"><table width="700" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td bgcolor="#dbdbdb" height="7"></td>
+</tr>
+<tr>
+<td><table width="720" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td bgcolor="#dbdbdb" valign="top"><table width="230" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td valign="top"><table width="224" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><img src="../../images-other/registar.png" width="224" height="150" alt=""></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" class="regitxt">Registrar</td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" class="ntxt" height="10"></td>
+</tr>
+<tr>
+<td align="left" bgcolor="#FFFFFF" class="ntxt1" style="line-height:20px; padding-right:3px; text-align:"><div class="font_size_change_container"> Registrars have been appointed for each local area under Section 7 of the RBD Act, 1969 for registration of births and deaths occurred under their jurisdictional area. Registrars may belong to a municipality, Panchayat, Government health institution or other local authority appointed by the State Government.. </div></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" style="height:10px;"></td>
+</tr>
+<tr>
+<!--<td align="right" bgcolor="#FFFFFF" class="ntxt" style="padding-right:5px; font-size:11px;">&nbsp;<!--<a href="#">Read More</a>--><!--</td>-->
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td align="center"><img src="../../images-other/centfoo2.png" width="224" height="25" alt=""></td>
+</tr>
+</tbody>
+</table></td>
+<td  bgcolor="#dbdbdb" valign="top"><table width="230" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><table width="224" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><img src="../../images-other/instition2.png" width="224" height="150" alt=""></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" class="regitxt">Institutions</td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" class="ntxt" height="10"></td>
+</tr>
+<tr>
+<td align="left" bgcolor="#FFFFFF" class="ntxt1" style="line-height:20px; padding-right:3px;"><div class="font_size_change_container"> <span>As per the registration of Births and Deaths Act, 1969 in respect of births and deaths in a hospital, health center, maternity or nursing home or other like institutions, responsibility of informing the events to the registrar... </span> </div></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" style="height:10px;"></td>
+</tr>
+<tr>
+<td align="right" bgcolor="#FFFFFF" class="ntxt" style="padding-right:5px; font-size:11px;">&nbsp;<!--<a href="#">Read More</a>--></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td align="center"><img src="../../images-other/centfoo2.png" width="224" height="25" alt=""></td>
+</tr>
+</tbody>
+</table></td>
+<td valign="top"  bgcolor="#dbdbdb"><table width="230" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><table width="224" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><img src="../../images-other/public2.png" width="224" height="150" alt=""></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" class="regitxt">Public</td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" class="ntxt" height="10"></td>
+</tr>
+<tr>
+<td align="left" bgcolor="#FFFFFF" class="ntxt1" style="line-height:20px; padding-right:3px;"><div class="font_size_change_container"> <span>In case of domiciliary Birth & Death, Citizen needs to inform the occurrence of the event to the respective Registrar, within 21 days of its occurrence. After registration, the certificate needs to be obtained from the Registrar. Where a birth has been registered without name of the child, the same needs to be reported to the Registrar within prescribed period.</span></div></td>
+</tr>
+<tr>
+<td align="right" bgcolor="#FFFFFF" class="ntxt" style="padding-right:5px; height:10px;"></td>
+</tr>
+<tr>
+<!--<td align="right" bgcolor="#FFFFFF" class="ntxt" style="padding-right:5px; font-size:11px;">&nbsp;<!--<a href="#">Read More</a>--><!--</td>-->
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td align="center"><img src="../../images-other/centfoo2.png" width="224" height="25" alt=""></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+<td valign="top" style="vertical-align: top; padding-top: 5px;" class="style5"><table width="250" border="0" align="right" cellpadding="0" cellspacing="0">
+<!--<tr>
+<td align="center" valign="top"><a href="#"> <img src="../../../web/images-other/check1.png" width="275" height="50" alt="how to apply" border="0" /> </a> </td>
+</tr>-->
+<tr>
+<td style="height: 6px;"></td>
+</tr>
+	
+<!-- Login screen start-->
+<tr valign="top">
+<td>
+<table width="275" border="0" cellpadding="0" cellspacing="0" style="background-image:url(../../images-other/log-bg.png); background-repeat:no-repeat; height:340px;">
+<tr>
+<td><form action="#" method="post"  autocomplete="off" name="frmLogin" id="frmLogin">
+<input type="hidden" name="Login[_csrf_token]" value="e6407a424c7f7a53af3f548939467e4c" id="Login__csrf_token" /><table width="245" border="0" cellspacing="0" cellpadding="0" align="center" style="margin-top:55px;">
+<tr>
+<td colspan="2" height="15"></td>
+</tr>
+<tr>
+<td colspan="2" align="center" style="color:#CB2D2E; font-size:12px; ">
+
+&nbsp;</td>
+</tr>
+<tr>
+<td width="73" style="padding-left:20px;color:#ffffff; font-size:11px;" ><label class="required" for="Login_user_name">USER ID</label></td>
+<td width="147"><input class="srchbox" oninput="checkLength(25,this)" tabindex="1" type="text" name="Login[user_name]" id="Login_user_name" /><input type="hidden" name="tkn" id="tkn" value ="6521dasd@434174q012012 210210afsdfdfdfs@$5ffd@f@90109218" />
+<!--<input type="hidden" name="ipn" id="ipn" value =""/></td>-->
+<input type="hidden" name="user_n" id="user_n" value ="" />
+<input type="hidden" name="user_p" id="user_p" value ="" />
+</td>
+</tr>
+<tr>
+<td colspan="2" height="4"></td>
+</tr>
+<tr>
+<td class="style3" style="color:#ffffff; padding-left:20px; font-size:11px;"><label class="required" for="Login_user_password">PASSWORD</label></td>
+<td><input class="srchbox" oninput="checkLength(50,this)" tabindex="2" type="password" name="Login[user_password]" id="Login_user_password" /></td>
+</tr>
+<tr>
+<td height="4" colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" align="center" style="font-size:12px; color:white; padding-left:25px; padding-right:25px;"> Please enter the text from the image below:The letters are case-sensitive.</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center"><table width="150" border="0" align="right" cellpadding="0" cellspacing="0" style="margin-right:25px;" >
+<tr>
+<td width="136"></td>
+<td width="64"></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td colspan="2" align="center" height="7" style="width:90px; color:#FAEE05; font-size:12px;">&nbsp;
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<img src='https://crsorgi.gov.in:443/web/index.php/captcha?reload=1&amp;1684177140' border='0' class='captcha' id='img_captcha' alt='captcha' />&nbsp;&nbsp;<a class='GNI' href='javascript:void(0);' onClick='document.getElementById("img_captcha").src="/web/index.php/captcha?r=" + Math.random() + "&amp;reload=1";return false;' title='Get new Image'></a>
+    <div class='padTp5 captchaCls'><input class="captcha" tabindex="3" type="text" name="Login[captcha]" id="Login_captcha" /><span class='reqRed'>&nbsp;</span></div> </td>
+</tr>
+<tr>
+<td height="3" colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><div class="loader"></div><input name="submit" type="submit" id="submit" value="&nbsp;" class="LoginBtn" style="margin-top:4px;outline:none;" /></td>
+</tr>
+<tr>
+<td height="4" colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" align="center" class="sign" style="margin-left:-7px;">
+<!--<a href="auth/forgotPassword" style="text-decoration: none; color:white;"><span >Forgot Password</span></a>-->
+<a class="login_watag" href="forgotPassword.html">Forgot Password</a>&nbsp;<span style="color:white; font-size:12px;">|</span>
+<a class="login_watag" href="signUp.html">General Public Signup</a>&nbsp;
+<!--<a href="signup.php" style="text-decoration: none; color:white;"><span >Sign Up</span></a>--></td>
+</tr>
+<tr>
+<td colspan="2" align="center" class="style3" height="7"></td>
+</tr>
+<tr>
+<td colspan="2" align="center" class="style3" style="color:white;">&nbsp;</td>
+</tr>
+</table>
+</form></td>
+</tr>
+</table></td>
+</tr>
+<!-- Login screen end-->
+	<!-- Ashish-->
+<tr>
+<td style="padding: 7px;padding-top: 15px;text-align: justify;font-weight: bold;font-size: 13px;">Please visit concern Registrar (Birth/Death) office for issuing, printing, verifying or checking the status of birth/death certificate.</td>
+</tr>
+<!--<tr><td style="padding: 7px;padding-top: 20px;text-align: justify;font-weight: bold;font-size: 13px;"><b>Inviting Suggestions/Comments from General Public :</b></td></tr>
+<tr>
+
+<td style="padding: 7px;padding-top: 2px;text-align: justify;font-weight: bold;font-size: 13px;" color="blue"><span color="#0000ff">
+<a href="https://crsorgi.gov.in/web/uploads/download/Forwarding note ORGI portal.pdf" target="_blank">(a). Proposed Amendments to the Registration of Births and Deaths Act, 1969(last date 02-12-2021)</a><span class="blink_text">&nbsp;&nbsp;&nbsp; New </span><br/><a href="https://crsorgi.gov.in/web/uploads/download/RBD-Comments WebVersion-28-9-21.pdf" target="_blank">(b). Suggestions/Comments format</a><span class="blink_text">&nbsp;&nbsp;&nbsp; New </span></span></td>
+</tr>-->
+
+<tr>
+
+<td style="padding: 7px;padding-top: 2px;text-align: justify;font-weight: bold;font-size: 13px;" color="blue"><span color="#0000ff">
+<a href="https://crsorgi.gov.in/web/uploads/download/CRS_report_2020.pdf" target="_blank">Annual Report on Vital Statistics of India based on CRS-2020 </a><span class="blink_text">&nbsp;&nbsp;&nbsp; New </span></td>
+</tr>
+<!-- Ashish -->
+<tr>
+<td style="padding-top: 9px;"><table width="248" style="border-left: 1px solid white;" align="center" cellpadding="0"
+cellspacing="0">
+<tr>
+<td bgcolor="#FFFFFF" class="style4 style3" style="padding-left: 7px;" height="2"></td>
+</tr>
+<tr> </tr>
+</table></td>
+</tr>
+
+
+
+
+
+<tr valign="top">
+<td style="font-family:Arial; font-size:12px; color:#363636;"><table width="275" border="0" align="center" cellpadding="0" cellspacing="0">
+<!--<tr>
+<td style="font-family:Arial; font-size:14px; font-weight:bold;"><img src="../../../web/images-other/latestupdt.png" width="272" height="41" alt="" /></td>
+</tr>
+<tr>
+<td ><table width="272" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-right:3px;">
+<tr>
+<td bgcolor="#FFFFFF" class="style4 style3" style="padding-left:12px; color: #444444; font-size: 13px; line-height:25px;border-right:1px solid #e6e6e6;border-left:1px solid #e6e6e6;height:100px;">
+<marquee direction="up" height="200px;" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="2" scrolldelay="100">
+
+<ul style="margin-left:30px;margin-right:20px; line-height:25px; list-style:circle;" align="justify">
+<!--added code on 07042016-->
+
+<!--<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+CRS Mobile App is available for registered users .
+</li> 
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+Inclusion of UID (Aadhaar) Number of Child in Birth Reporting Form as well as on certificate.
+</li>
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+Inclusion of EID/UID (Aadhaar) Number of deceased in Death Reporting Form as well as on certificate.
+</li>
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+Acknowledgement to be auto sent to the general public on their e-mail id with reference number about 
+reporting of the event(s) by the medical institution/DEO to the concerned Registrar.
+</li>
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+Acknowledgement with link to be auto sent on the e-mail id(s) of parents with registration number 
+registration of births by the Registrar and similarly in case of death registration.
+</li>
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+Provision to know the status by general public for the reported events i.e. either the approved or pending 
+with Registrar for approval.</li>
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+Issuance of bilingual birth/death certificate for the events primarily registered unilingual.
+</li>
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+Provision of availability of multiple sub-districts with their village in the field of Place of Birth/Death.</li>
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+Availability of EID and Monitoring reports up to CRBD, District and registrar level.</li>
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+ To capture multiple causes of death in case of medically certified causes of deaths.</li>
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+Inclusion of issuing authority seal in birth and death certificates.
+</li>
+
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+<a href="../../../../../web/uploads/download/CRS_Report2013.pdf" style="color:#363636;font-weight:bold;" target="_blank">
+Annual Report on Vital Statistics of India based on CRS-2013</a>
+</li>
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+Provision for Chief Registrar, District Registrar, District Admin to download district wise data to be forwarded to UIDAI
+</li>
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+Provision to enter payment details and issue payment reciept
+</li>
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+Integrated Payment module with Delayed Registration, Birth Search, Death Search, Issuance of extra copy of certificate
+</li>
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+Provision to Registrar for approving multiple reported events (Birth/Death) from pending aplication page
+</li>
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+Provision to Registrar to filter Pending applications on basis of Hospital and Data Entry Operator
+</li>
+
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+Provision for <font color="#cc0000">Common Service Centre</font> to report the event & issue of certificate.
+</li>
+
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+Provision to make Payment provided in CRS application
+</li>
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+<a href="../../../web/uploads/download/Signed_copy_of_orphan_circular_3rd_July_2015.pdf" style="color:#363636;font-weight:bold;" target="_blank">
+Circular on registration of birth of <font color="#009900">orphan/abandoned children</font></a>
+</li>
+
+
+<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<img src="../../../web/images-other/New.gif"/>
+<a href="../../../web/uploads/download/igned_circularreg_correction_in_name.pdf" style="color:#363636;font-weight:bold;" target="_blank">
+Circular on Correction of name and date of birth of the child in birth record</a>
+</li>
+
+
+
+<!--<li style="border-bottom:1px solid #cbc9c9;padding-bottom:5px;padding-top:5px; text-align:justify;">
+<a href="#" style="color:#363636;font-weight:bold;" target="_blank">
+Provision given to Hospitals to Report Birth & Death Events Online
+</a>
+</li>-->
+
+
+<!--</ul>
+</marquee>
+</td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" class="style4 style3"><img src="../../../web/images-other/updatefooter.png" width="272" height="7" alt="" /></td>
+</tr>
+<tr></tr>
+</table></td>
+</tr>-->
+<tr>
+<td height="5"></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!---Footer-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td style="background-image: url(../../images-other/footbot.png); height: 35px;"><table width="980" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td width="400px" style="padding-left: 7px;color:white;" class="for style3" ><strong>
+<!--Compatible with IE 8 or above with 1024x768 resolution-->
+Compatible with updated version of Google Chrome &amp; Mozila Firefox.
+</strong> </td>
+<td>&nbsp;</td>
+<td  align="right"><div class="bmenu" style="width:500px; text-align:right; margin-left: 67px; font-size:12px; font-weight:bold;" > <span style="padding-left: 35px; color:white; line-height: 30px;"> &copy; 2023 -The Registrar General & Census Commissioner, India</span></div></td>
+</tr>
+</table></td>
+</tr>
+</table>
+</div>
+
+    
+
+
+<map name="Map" id="Map">
+<area shape="rect" coords="570,200,700,50" href="https://amritmahotsav.nic.in/" onclick="return confirm('This link will take you to an external website!')" target="_blank" />
+<area shape="rect" coords="601,76,751,95" href="https://www.crsorgi.gov.in/" style="outline:none;" />
+<area shape="rect" coords="764,75,847,95" href="https://crsorgi.gov.in:443/about-us.html" style="outline:none;" />
+<area shape="rect" coords="863,74,903,93" href="https://censusindia.gov.in/" onclick="return confirm('This link will take you to an external website!')"  target="_blank" style="outline:none;" />
+<area shape="rect" coords="922,74,1005,93" href="https://crsorgi.gov.in:443/contact.html" style="outline:none;">
+</map>
+<script type="text/javascript" src="../../js/jquery-1.9.0.js"></script>
+<script type="text/javascript">
+jQuery().ready(function() { 
+$("input:text:visible:first").focus();
+// validate signup form on keyup and submit3
+jQuery("#frmLogin").validate({ 
+rules: {
+"Login[user_name]": {
+required: true
+//              maxlength: 50
+},
+"Login[user_password]": {
+required: true
+//              maxlength: 100
+},
+"Login[captcha]": {
+required: true
+}
+},
+errorElement: "div", 
+messages: {
+"Login[user_name]": "Please enter user id.",
+"Login[user_password]": "Please enter valid password.",
+"Login[captcha]": "Please enter valid captcha code."
+}
+});
+});
+
+
+$("#frmLogin").submit(function(event){
+	$("#submit").css('display','none');
+	$(".loader").css('display','block');
+var pa = $("#Login_user_password").val().split('').reverse().join('');
+var us = $("#Login_user_name").val().split('').reverse().join('');
+// console.log(pa)
+// console.log(us)
+var tkn = $("#tkn").val();
+var p =tkn.replace(" ", pa);
+var u =tkn.replace(" ", us);
+p = Base64.encode(p);
+u = Base64.encode(u);
+//$("#Login_user_password").val(p);
+//$("#Login_user_name").val(u);
+$("#user_p").val(p);
+$("#user_n").val(u);
+});
+
+var timer2 = "2:00";
+$('#time_n_resent_div').html('Resend OTP in '+timer2);
+var interval = setInterval(function() {
+
+
+  var timer = timer2.split(':');
+  //by parsing integer, I avoid all extra string processing
+  var minutes = parseInt(timer[0], 10);
+  var seconds = parseInt(timer[1], 10);
+  --seconds;
+  if(minutes==0&&seconds==0)
+  {
+	  $("#resend_otp").css('display','block');
+	  $("#time_n_resent_div").css('display','none');
+  }
+  minutes = (seconds < 0) ? --minutes : minutes;
+  if (minutes < 0) clearInterval(interval);
+  seconds = (seconds < 0) ? 59 : seconds;
+  seconds = (seconds < 10) ? '0' + seconds : seconds;
+  //minutes = (minutes < 10) ?  minutes : minutes;
+  $('#time_n_resent_div').html('Resend OTP in '+minutes + ':' + seconds);
+  timer2 = minutes + ':' + seconds;
+}, 1000);
+var i=1;
+$("#submit_otp").click(function(){
+	var otp_val = $("#otp_txt_id").val();
+	var user_state = $("#user_state").val();
+	var user_reg_id = $("#user_reg_id").val();
+	var user_id = $("#user_id").val();
+	$("#submit_otp").css('display','none');
+	$(".loader").css('display','block');
+	//alert(otp_val); 
+	if(otp_val=='')
+	{
+		$('.error').css('display','block');
+		$('.txt2').html('Please enter OTP');
+		$('.toolTip').css({'bottom': '26px','left': '4px;'});
+		$("#submit_otp").css('display','block');
+		$(".loader").css('display','none');
+		return false;
+	}
+	if(otp_val.length!=6)
+	{
+		$('.error').css('display','block');
+		$('.txt2').html('Please enter 6 digit OTP');
+		$('.toolTip').css({'bottom': '26px','left': '4px;'});
+		$("#submit_otp").css('display','block');
+		$(".loader").css('display','none');
+		return false;
+	}
+	if(i==4)
+		{
+			window.location.href='login.html';
+		}
+	i++;
+		urlOTPvalidation  = '/web/index.php/ajaxRequests/ValidateOTP';
+		$.ajax({
+        url: urlOTPvalidation,
+        data: {'user_reg_id':user_reg_id,'user_state':user_state,'user_id':user_id,'OTP':otp_val},
+        type: 'POST',
+        success: function(data) {
+			if(data=='"Login Successful."')
+			{
+				
+				window.location.href='login.html';
+			}
+			else
+			{
+				j=4-i;
+				$('.error').css('display','block');
+				if(j==-1)
+				{
+					$('.txt2').html("Logging out...");
+				}
+				else
+				{
+					$('.txt2').html(data+"<br/>Attempts Left: "+j);
+				}
+		$('.toolTip').css({'bottom': '26px','left': '4px;'});
+		$('.txt2').html(data+"<br/>Attempts Left: "+j);
+		$('.toolTip').css({'bottom': '26px','left': '4px;'});
+		$("#submit_otp").css('display','block');
+	    $(".loader").css('display','none');
+		//$('.error').css('display','none');
+			}
+        },
+		error:function(err)
+		{
+			console.log(err);
+			$('.txt2').html('Network issue. Please try again later.').fadeOut(5000);
+		}
+    });
+	
+});
+$("#resend_otp").on('click',function(){
+	if(i==2)
+	{
+		window.location.href='login.html';
+	}
+	i++;
+	urlOTPvalidation  = '/web/index.php/ajaxRequests/GenerateOTP';
+		$.ajax({
+        url: urlOTPvalidation,
+        data: {'isOTPrequested':1},
+        type: 'POST',
+        success: function(data) {
+			if(data==1)
+			{
+				$('#otp_resent_notification_div').show().html('OTP resent on your mobile no.').fadeOut(3000);
+				 $("#resend_otp").css('display','none');
+				$("#time_n_resent_div").css('display','block');
+				var timer2 = "2:00";
+				var interval = setInterval(function() {
+
+
+				  var timer = timer2.split(':');
+				  //by parsing integer, I avoid all extra string processing
+				  var minutes = parseInt(timer[0], 10);
+				  var seconds = parseInt(timer[1], 10);
+				  --seconds;
+				  if(minutes==0&&seconds==0)
+				  {
+					  $("#resend_otp").css('display','block');
+					  $("#time_n_resent_div").css('display','none');
+				  }
+				  minutes = (seconds < 0) ? --minutes : minutes;
+				  if (minutes < 0) clearInterval(interval);
+				  seconds = (seconds < 0) ? 59 : seconds;
+				  seconds = (seconds < 10) ? '0' + seconds : seconds;
+				  //minutes = (minutes < 10) ?  minutes : minutes;
+				  $('#time_n_resent_div').html('Resend OTP in '+minutes + ':' + seconds);
+				  timer2 = minutes + ':' + seconds;
+				}, 1000);
+				
+				
+				
+				
+			}
+        },
+		error:function(err)
+		{
+			console.log(err);
+			$('.txt2').html('Network issue. Please try again later.').fadeOut(5000);
+		}
+    });
+});
+function check(e,value){
+    //Check Charater
+        var unicode=e.charCode? e.charCode : e.keyCode;
+        if (value.indexOf(".") != -1)if( unicode == 46 )return false;
+        if (unicode!=8)if((unicode<48||unicode>57)&&unicode!=46)return false;
+    }
+    function checkLength(len,ele){
+    var fieldLength = ele.value.length;
+    if(fieldLength <= len){
+        return true;
+    }
+    else
+    {
+        var str = ele.value;
+        str = str.substring(0, str.length - 1);
+    ele.value = str;
+    }
+    }
+		window.setTimeout(function(){
+//refresh the page after 900,000 miliseconds (15 minutes)
+
+
+//reload the page (javascript has many ways of doing this)
+location.reload();
+},15*60*1000);
+</script>
+<!--- Start to window load pop up javascript -->
+
+<!--
+
+<div id="boxes" >
+  <div style="top: 199.5px; left: 551.5px; display: none;" id="dialog" class="window" >
+    <div id="lorem">
+	   <img src="/web/images/crgorgi_new_year.jpg" width="400" style="border-radius: 50px;-webkit-border-radius: 50px;-moz-border-radius: 50px; border-radius:50px;" > 
+	   <input type="hidden" name="popupDiwali" id="popupDiwali"  value="1" >
+    </div>    
+  </div>
+  <div style="width: 1478px; font-size: 32pt; color:white; height: 602px; display: none; opacity: 0.8;" id="mask"></div>
+</div>
+
+-->
+
+<!-- End to window load pop up -->
+
+
+</body>
+
+<!-- Mirrored from crsorgi.gov.in:443/web/index.php/auth/login by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 May 2023 19:01:16 GMT -->
+</html>
+    </table>
+  </body>
+</html>
